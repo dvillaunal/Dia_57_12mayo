@@ -6,9 +6,8 @@
  2. Lenguaje: R
 
  3. Tema: Gráficos con R: tortas, barras, boxplots, histogramas, gráficos de dispersión (realice al menos dos ejercicios que requieran cargar archivos externos, leer y procesar la información del archvo leído, y guardar las respuestas a los ejercicios en archivos independientes)
-
- 4. Fuentes:
-    https://bookdown.org/jboscomendoza/r-principiantes4/datos-usados-en-el-capitulo.html"
+ 
+ 4. Fuentes:https://bookdown.org/jboscomendoza/r-principiantes4/datos-usados-en-el-capitulo.html"
 ```
 
 # Graficos en R:
@@ -90,7 +89,7 @@ barplot(BaseBarplot$Freq,
 dev.off()
 ```
 
-# BotPlot
+# BoxPlot
 
 Los box plots, también conocidos como diagramas de cajas y bigotes, son una representación gráfica que permite resumir las características principales de los datos (posición, dispersión, asimetría, …) e identificar la presencia de valores atípicos.
 
@@ -123,7 +122,7 @@ dev.off()
 
 Un histograma en R es el gráfico más habitual para representar datos continuos. Este tipo de gráfico es similar a un diagrama de barras, pero que representa las frecuencias en las que aparecen las mediciones agrupadas en ciertos intervalos y cuenta cuántas observaciones caen en cada intervalo.
 
-## ¿Cómo hacer un histograma en R? La función hist
+## ¿Cómo hacer un histograma en R? La función ``hist()``
 
 Puedes dibujar un histograma en R con la función hist. Por defecto, la función creará un histograma de frecuencias.
 
